@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hostinfo
-        image: python3:v1
+        image: nurlan1992/hostinfo:latest
         ports:
         - containerPort: 80
 ---
