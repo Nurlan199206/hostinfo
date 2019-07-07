@@ -1,0 +1,2 @@
+include hostinfo/static/*
+include hostinfo/templates/*
