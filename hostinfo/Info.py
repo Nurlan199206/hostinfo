@@ -2,7 +2,6 @@ from __future__ import print_function
 from __future__ import division
 import platform         # gets host info
 import psutil as ps     # gets host info
-from requests import get ##for Public IP:
 import datetime as dt
 # import socket
 import cpuinfo
@@ -73,8 +72,6 @@ class HostInfo(object):
 		self.macaddr = None
 
 		
-	ip = get('https://api.ipify.org').text
-        print 'My public IP address is:', ip
 	
 	def get(self):
 		info = [
