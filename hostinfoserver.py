@@ -47,7 +47,6 @@ def generator(en):
 
 host_data = []  # generator(args['ethernet'])
 
-
 app = Flask(
 	'hostinfo',
 	template_folder=pkg_resources.resource_filename('hostinfo', 'templates'),
