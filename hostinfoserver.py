@@ -27,7 +27,6 @@ Launches a server that reports host information via a static web page. Example:
 
 	return vars(parser.parse_args())
 
-
 def generator(en):
 	"""
 	This generates the webpage.
