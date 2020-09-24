@@ -10,6 +10,9 @@ RUN apk update && apk add gcc linux-headers musl-dev \
 && rm -rf /var/cache/apk/* \
 && pip3 install hostinfo
 
+RUN useradd -m myapp
+USER myapp
+
 # Open port 80 for serving the webpage
 EXPOSE 80
 
